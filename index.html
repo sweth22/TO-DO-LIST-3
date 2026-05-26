@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic DOM Manipulation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Dynamic DOM Manipulation Website</h1>
+<p>Add, Remove and Style Elements using JavaScript</p>
+</header>
+
+<section class="controls">
+
+<input type="text" id="taskInput" placeholder="Enter a task">
+
+<button onclick="addTask()">Add Task</button>
+<button onclick="removeAll()">Remove All</button>
+<button onclick="changeTheme()">Change Theme</button>
+
+</section>
+
+<section class="progress-section">
+
+<h3>Task Progress</h3>
+
+<div class="progress-container">
+<div id="progressBar"></div>
+</div>
+
+</section>
+
+<section>
+
+<ul id="taskList"></ul>
+
+</section>
+
+<footer>
+<p>DOM Manipulation Demo Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
